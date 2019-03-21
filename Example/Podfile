@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CRPickerView_Example' do
+  pod 'CRPickerView', :path => '../'
+
+  target 'CRPickerView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
