@@ -7,6 +7,7 @@
 //
 
 #import "CRViewController.h"
+#import <CRPickerView/CRPicker.h>
 
 @interface CRViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

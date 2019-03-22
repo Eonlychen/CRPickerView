@@ -14,22 +14,26 @@
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		28E70A34393325827DDD4C9FF21A91B3 /* Pods-CRPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3EEA0669B0818B8D81BF5C61394C02 /* Pods-CRPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F8747F7010C0E9636AE5BB152156670 /* CRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A56C71CC86B2742090F1556526885250 /* CRPickerView-dummy.m */; };
+		341EB88C665C7D1974D16AAE474845FB /* CRPickerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F73436CB683A502AA76AE6BF3FF87 /* CRPickerBarButtonItem.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
 		4DCEEEE39EF273687986E2E0E2F73D41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		50B53F0C447CC4E4DD165083B9766B2C /* CRPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 762CF7D830221992D28A5C2E58070B6D /* CRPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5265E4C86870048A2FFBA63C7C096BD1 /* CRPickerPopoverViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FC3B97BE2FDDAED15997700D848FD7 /* CRPickerPopoverViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534EE75CC39CCEBBFFA88C3BF583FA11 /* CRPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4635F039558EA083220549115490F1 /* CRPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5868017F6AF86AF8316B576AAA37BF2A /* CRPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CD0C0E2F232FE44F13D7F21E0AC06 /* CRPicker.m */; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
+		68611D8B263DD31930795BA48958FC8D /* CRPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EE0EF1E2391FB6E4F88532BC0236EA /* CRPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7A4C76158FD7C3FEF28C00EB8B1585FE /* Pods-CRPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C251D23C608CBB60EDAF5BEB6AD66063 /* Pods-CRPickerView_Example-dummy.m */; };
+		7B58BD24DA530C3FA7EB46687811404A /* CRPickerPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B1B7258373533B3754FB34090CA99 /* CRPickerPopoverViewController.m */; };
+		8B762FC4B581ACF1BC8B3759E6CDD02F /* CRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF86E342946780587B50EBF2AD3CD7C9 /* CRPickerView-dummy.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2EB4593A219A9D451456648D5A5EAF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C087375AD1B06B574FCA18305C733AC /* ReplaceMe.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBADF09DC95541CC00A5FC553E318E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		BA04B1034E54CB3030363A415BD3829D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +42,7 @@
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		E3133C7EB3C348A1BD165E0A00BFFC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		E69A87DDF6CA9010BF08EDBF0940F8F2 /* Pods-CRPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC62208F0FBDFC50327BCE43BC2BCC8 /* Pods-CRPickerView_Tests-dummy.m */; };
+		FEFA7534F5CCACDDE168A3CD78905B95 /* CRPickerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B0F7D4C04581457B4BEC5395830C75 /* CRPickerBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +64,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F07584571A3B1EFC5B8DBCA7A9079C3;
+			remoteGlobalIDString = 99487C69F5365CE1476BEF6CB2411524;
 			remoteInfo = CRPickerView;
 		};
 /* End PBXContainerItemProxy section */
@@ -67,64 +72,69 @@
 /* Begin PBXFileReference section */
 		01F6D152B91DBC4F7786048B72A806D0 /* Pods-CRPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRPickerView_Tests.modulemap"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		092B1B7258373533B3754FB34090CA99 /* CRPickerPopoverViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRPickerPopoverViewController.m; path = CRPickerView/Classes/CRPickerPopoverViewController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0CC62208F0FBDFC50327BCE43BC2BCC8 /* Pods-CRPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		144E949A64A85188953F91C12FE78F3E /* Pods-CRPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		17867E6971ADA137E95521DF403A494A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		23A0BE3FEEF0485E1A3E1579BB07AD29 /* Pods-CRPickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRPickerView_Example-resources.sh"; sourceTree = "<group>"; };
 		24F90F69157CA4041145A4E45A3A1ED8 /* Pods-CRPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRPickerView_Example.modulemap"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		309C874E483B3F1363F4F1141A671AA3 /* Pods_CRPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309C874E483B3F1363F4F1141A671AA3 /* Pods_CRPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRPickerView_Example.framework; path = "Pods-CRPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		42C0A7902C06ABDD308714C9A18B4AF0 /* Pods-CRPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		444D49186B7217D2900AE12E81316792 /* Pods_CRPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444D49186B7217D2900AE12E81316792 /* Pods_CRPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRPickerView_Tests.framework; path = "Pods-CRPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5C087375AD1B06B574FCA18305C733AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CRPickerView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5FDF8533501BFD7C98B3F5280833E4D8 /* CRPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRPickerView.xcconfig; sourceTree = "<group>"; };
 		61F7746707A924661E084866845C3F17 /* Pods-CRPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6754EA11F103DD399820038FC0525C20 /* CRPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRPickerView.xcconfig; sourceTree = "<group>"; };
+		672F73436CB683A502AA76AE6BF3FF87 /* CRPickerBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRPickerBarButtonItem.m; path = CRPickerView/Classes/CRPickerBarButtonItem.m; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68EB2F13010AC59405F9DB7F0150AA0C /* Pods-CRPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		762CF7D830221992D28A5C2E58070B6D /* CRPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRPickerView-umbrella.h"; sourceTree = "<group>"; };
+		6D4635F039558EA083220549115490F1 /* CRPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRPickerView-umbrella.h"; sourceTree = "<group>"; };
+		786AA60B9FD7AB31461881965361DF8A /* CRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRPickerView-prefix.pch"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7DBB382AB073F5F0A4A66FF11F978E8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		80C5A2235989B517FA7A6B0CBA939B63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		825D53E12921CCB3EA6C208C1D109EA1 /* Pods-CRPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
 		835F7CD4571824E0738ED586CAF7656A /* Pods-CRPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		85188E239C852E75FE4CAE1EA9892D3C /* Pods-CRPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8B50A0AE04306A32B890FBFB3F557990 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B50A0AE04306A32B890FBFB3F557990 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0CD0C0E2F232FE44F13D7F21E0AC06 /* CRPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRPicker.m; path = CRPickerView/Classes/CRPicker.m; sourceTree = "<group>"; };
+		8EF95B65F1418E8EB96ED8D4BD393563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9A68711DF85249310E2062D4EEC6A3 /* Pods-CRPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9016F24489CE40EB9DE6892089229B7A /* CRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRPickerView-prefix.pch"; sourceTree = "<group>"; };
-		90CEA7C26ECA8753B7CE18B99C628AB8 /* CRPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CRPickerView.podspec; sourceTree = "<group>"; };
-		9323B20F4E1B2A3EFB4D452B4597181D /* CRPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90FC3B97BE2FDDAED15997700D848FD7 /* CRPickerPopoverViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRPickerPopoverViewController.h; path = CRPickerView/Classes/CRPickerPopoverViewController.h; sourceTree = "<group>"; };
+		9323B20F4E1B2A3EFB4D452B4597181D /* CRPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CRPickerView.framework; path = CRPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9617049DD107725C35D75738371808D9 /* Pods-CRPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		976E163200E012FF68BCD225745029F6 /* CRPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRPickerView.modulemap; sourceTree = "<group>"; };
+		9CC45DFCB510323F5457CD08E9B95D0D /* CRPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CRPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A2447D73E2AB0FB96B96806BDA1595CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A56C71CC86B2742090F1556526885250 /* CRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRPickerView-dummy.m"; sourceTree = "<group>"; };
 		A7E33F255053C84B059682A937A106FF /* Pods-CRPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE3EEA0669B0818B8D81BF5C61394C02 /* Pods-CRPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		B65EA9F6500CDC8A126C805960A3F5BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C251D23C608CBB60EDAF5BEB6AD66063 /* Pods-CRPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		C2EE0EF1E2391FB6E4F88532BC0236EA /* CRPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRPicker.h; path = CRPickerView/Classes/CRPicker.h; sourceTree = "<group>"; };
+		CE9E922F71D33B64395C5E4295873EF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF86E342946780587B50EBF2AD3CD7C9 /* CRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRPickerView-dummy.m"; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E8B0F7D4C04581457B4BEC5395830C75 /* CRPickerBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRPickerBarButtonItem.h; path = CRPickerView/Classes/CRPickerBarButtonItem.h; sourceTree = "<group>"; };
 		EEC0643E96CC77BD579B5D7B67CF0C99 /* Pods-CRPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F2746C829475F343D581897737C95FD1 /* Pods-CRPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA0048154B459F698BDDD1A1A4494DBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF05BC598DA41ADF0E9930AFE4767E53 /* CRPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRPickerView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,34 +165,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B587519DB32DCDF42E2F5B73A382A937 /* Frameworks */ = {
+		F9C15AB581200055E1CBE9402FEE9F63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBADF09DC95541CC00A5FC553E318E55 /* Foundation.framework in Frameworks */,
+				BA04B1034E54CB3030363A415BD3829D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02D1C234F9A81EE465FBA8174FE0246C /* CRPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				5C087375AD1B06B574FCA18305C733AC /* ReplaceMe.m */,
-				5B43715C052EFEBE93852811F7894966 /* Pod */,
-				3D0F10C80728F37660FA4104EB620192 /* Support Files */,
-			);
-			name = CRPickerView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		156C2F39AA2D2AE95DCCC41CDAB78807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				976E163200E012FF68BCD225745029F6 /* CRPickerView.modulemap */,
+				5FDF8533501BFD7C98B3F5280833E4D8 /* CRPickerView.xcconfig */,
+				CF86E342946780587B50EBF2AD3CD7C9 /* CRPickerView-dummy.m */,
+				786AA60B9FD7AB31461881965361DF8A /* CRPickerView-prefix.pch */,
+				6D4635F039558EA083220549115490F1 /* CRPickerView-umbrella.h */,
+				8EF95B65F1418E8EB96ED8D4BD393563 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CRPickerView";
 			sourceTree = "<group>";
 		};
 		1816687BAFC319ADA4CB3E8F2660772A /* Pods-CRPickerView_Tests */ = {
@@ -210,15 +223,18 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		2E65060F0A30E44CA2AB4390713C65F9 /* Development Pods */ = {
+		2E1F3E8EC667486F8045363E39DD7E6A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				02D1C234F9A81EE465FBA8174FE0246C /* CRPickerView */,
+				9CC45DFCB510323F5457CD08E9B95D0D /* CRPickerView.podspec */,
+				17867E6971ADA137E95521DF403A494A /* LICENSE */,
+				CE9E922F71D33B64395C5E4295873EF2 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -235,20 +251,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		3D0F10C80728F37660FA4104EB620192 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF05BC598DA41ADF0E9930AFE4767E53 /* CRPickerView.modulemap */,
-				6754EA11F103DD399820038FC0525C20 /* CRPickerView.xcconfig */,
-				A56C71CC86B2742090F1556526885250 /* CRPickerView-dummy.m */,
-				9016F24489CE40EB9DE6892089229B7A /* CRPickerView-prefix.pch */,
-				762CF7D830221992D28A5C2E58070B6D /* CRPickerView-umbrella.h */,
-				B65EA9F6500CDC8A126C805960A3F5BF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CRPickerView";
-			sourceTree = "<group>";
-		};
 		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,16 +260,6 @@
 				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5B43715C052EFEBE93852811F7894966 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				90CEA7C26ECA8753B7CE18B99C628AB8 /* CRPickerView.podspec */,
-				80C5A2235989B517FA7A6B0CBA939B63 /* LICENSE */,
-				A2447D73E2AB0FB96B96806BDA1595CE /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		6F6547070C9848B4132124BCB7009F15 /* Products */ = {
@@ -294,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2E65060F0A30E44CA2AB4390713C65F9 /* Development Pods */,
+				CD507E8CFB597BE478754F7CD34F5FCB /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				6F6547070C9848B4132124BCB7009F15 /* Products */,
@@ -328,6 +320,14 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
+		CD507E8CFB597BE478754F7CD34F5FCB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF5E1301096566658E142F4FA55BAB6 /* CRPickerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +349,22 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		FAF5E1301096566658E142F4FA55BAB6 /* CRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C2EE0EF1E2391FB6E4F88532BC0236EA /* CRPicker.h */,
+				8E0CD0C0E2F232FE44F13D7F21E0AC06 /* CRPicker.m */,
+				E8B0F7D4C04581457B4BEC5395830C75 /* CRPickerBarButtonItem.h */,
+				672F73436CB683A502AA76AE6BF3FF87 /* CRPickerBarButtonItem.m */,
+				90FC3B97BE2FDDAED15997700D848FD7 /* CRPickerPopoverViewController.h */,
+				092B1B7258373533B3754FB34090CA99 /* CRPickerPopoverViewController.m */,
+				2E1F3E8EC667486F8045363E39DD7E6A /* Pod */,
+				156C2F39AA2D2AE95DCCC41CDAB78807 /* Support Files */,
+			);
+			name = CRPickerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,11 +376,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		55729BA0E81A06E7808A4816845626D5 /* Headers */ = {
+		6DEB024812DB91247215271C90D7A98C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B53F0C447CC4E4DD165083B9766B2C /* CRPickerView-umbrella.h in Headers */,
+				68611D8B263DD31930795BA48958FC8D /* CRPicker.h in Headers */,
+				FEFA7534F5CCACDDE168A3CD78905B95 /* CRPickerBarButtonItem.h in Headers */,
+				5265E4C86870048A2FFBA63C7C096BD1 /* CRPickerPopoverViewController.h in Headers */,
+				534EE75CC39CCEBBFFA88C3BF583FA11 /* CRPickerView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,23 +438,6 @@
 			productReference = 8B50A0AE04306A32B890FBFB3F557990 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3F07584571A3B1EFC5B8DBCA7A9079C3 /* CRPickerView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F003018B2475E8140734A2CC08B06EC /* Build configuration list for PBXNativeTarget "CRPickerView" */;
-			buildPhases = (
-				49F422376735467227E937024E8318D1 /* Sources */,
-				B587519DB32DCDF42E2F5B73A382A937 /* Frameworks */,
-				55729BA0E81A06E7808A4816845626D5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CRPickerView;
-			productName = CRPickerView;
-			productReference = 9323B20F4E1B2A3EFB4D452B4597181D /* CRPickerView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9141C63FECEA4701D3ED809190A582DD /* Pods-CRPickerView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C124A082488AD90AAA51729BF88E716 /* Build configuration list for PBXNativeTarget "Pods-CRPickerView_Example" */;
@@ -473,6 +475,23 @@
 			productReference = 444D49186B7217D2900AE12E81316792 /* Pods_CRPickerView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		99487C69F5365CE1476BEF6CB2411524 /* CRPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83A8CACAB00EB6B655F997433D21E60 /* Build configuration list for PBXNativeTarget "CRPickerView" */;
+			buildPhases = (
+				9704FADED26E168EA8B3E7B07A39572F /* Sources */,
+				F9C15AB581200055E1CBE9402FEE9F63 /* Frameworks */,
+				6DEB024812DB91247215271C90D7A98C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRPickerView;
+			productName = CRPickerView;
+			productReference = 9323B20F4E1B2A3EFB4D452B4597181D /* CRPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -494,7 +513,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F07584571A3B1EFC5B8DBCA7A9079C3 /* CRPickerView */,
+				99487C69F5365CE1476BEF6CB2411524 /* CRPickerView */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				9141C63FECEA4701D3ED809190A582DD /* Pods-CRPickerView_Example */,
 				95E8EA1BB519624305FAADB691596913 /* Pods-CRPickerView_Tests */,
@@ -503,20 +522,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49F422376735467227E937024E8318D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F8747F7010C0E9636AE5BB152156670 /* CRPickerView-dummy.m in Sources */,
-				9F2EB4593A219A9D451456648D5A5EAF /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		53B2FA73FC2B37F429A19213350A329B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A4C76158FD7C3FEF28C00EB8B1585FE /* Pods-CRPickerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9704FADED26E168EA8B3E7B07A39572F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5868017F6AF86AF8316B576AAA37BF2A /* CRPicker.m in Sources */,
+				341EB88C665C7D1974D16AAE474845FB /* CRPickerBarButtonItem.m in Sources */,
+				7B58BD24DA530C3FA7EB46687811404A /* CRPickerPopoverViewController.m in Sources */,
+				8B762FC4B581ACF1BC8B3759E6CDD02F /* CRPickerView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +571,7 @@
 		25AFE36D9EE0E4E6FAC1155638A4D2FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CRPickerView;
-			target = 3F07584571A3B1EFC5B8DBCA7A9079C3 /* CRPickerView */;
+			target = 99487C69F5365CE1476BEF6CB2411524 /* CRPickerView */;
 			targetProxy = F8670706347F0AB9CE72AAB9EB761C48 /* PBXContainerItemProxy */;
 		};
 		76AABF4DE574F88A579A364B94FD3F11 /* PBXTargetDependency */ = {
@@ -568,37 +589,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EAE1E498D079C4671613F0B93B6CC0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6754EA11F103DD399820038FC0525C20 /* CRPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CRPickerView/CRPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CRPickerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CRPickerView/CRPickerView.modulemap";
-				PRODUCT_MODULE_NAME = CRPickerView;
-				PRODUCT_NAME = CRPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -764,6 +754,67 @@
 			};
 			name = Release;
 		};
+		66C785894A72AEBC4AD46FC2ECC0C8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDF8533501BFD7C98B3F5280833E4D8 /* CRPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRPickerView/CRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRPickerView/CRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CRPickerView;
+				PRODUCT_NAME = CRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77CEDF602AAC1020F51BD062CF09E2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDF8533501BFD7C98B3F5280833E4D8 /* CRPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRPickerView/CRPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRPickerView/CRPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CRPickerView;
+				PRODUCT_NAME = CRPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -862,36 +913,6 @@
 			};
 			name = Release;
 		};
-		DF15DFDD8502745DF3D1EDC3FC7852C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6754EA11F103DD399820038FC0525C20 /* CRPickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CRPickerView/CRPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CRPickerView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CRPickerView/CRPickerView.modulemap";
-				PRODUCT_MODULE_NAME = CRPickerView;
-				PRODUCT_NAME = CRPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -962,15 +983,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F003018B2475E8140734A2CC08B06EC /* Build configuration list for PBXNativeTarget "CRPickerView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF15DFDD8502745DF3D1EDC3FC7852C9 /* Debug */,
-				0EAE1E498D079C4671613F0B93B6CC0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9C124A082488AD90AAA51729BF88E716 /* Build configuration list for PBXNativeTarget "Pods-CRPickerView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -985,6 +997,15 @@
 			buildConfigurations = (
 				3EDCA425A802271FFFE0A053CA8AA849 /* Debug */,
 				D6A42C0E3AB5FC3BF5220CFC7FB8CFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83A8CACAB00EB6B655F997433D21E60 /* Build configuration list for PBXNativeTarget "CRPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77CEDF602AAC1020F51BD062CF09E2A0 /* Debug */,
+				66C785894A72AEBC4AD46FC2ECC0C8CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

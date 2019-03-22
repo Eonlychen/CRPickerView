@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CRPicker.h"
+#import "CRPickerBarButtonItem.h"
+#import "CRPickerPopoverViewController.h"
 
 FOUNDATION_EXPORT double CRPickerViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char CRPickerViewVersionString[];

@@ -1,9 +1,9 @@
 {
   "name": "CRPickerView",
   "version": "0.1.0",
-  "summary": "A short description of CRPickerView.",
+  "summary": "pickerView",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/eonly_chen@163.com/CRPickerView",
+  "homepage": "https://github.com/Eonlychen/CRPickerView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
