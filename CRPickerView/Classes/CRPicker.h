@@ -13,7 +13,7 @@ typedef void(^DoneHandler) (NSDictionary<NSNumber*,NSString *> * selections);
 typedef void(^CancelHandler) (void);
 typedef void(^SelectionChangedHandler) (NSDictionary<NSNumber *,NSString *> *selections,NSInteger componentThatChanged);
 
-
+@class CRPickerBarButtonItem;
 @interface CRPicker : UIView
 
 /** 字体大小 */
@@ -24,7 +24,6 @@ typedef void(^SelectionChangedHandler) (NSDictionary<NSNumber *,NSString *> *sel
 /** <#属性#> */
 @property (nonatomic, strong) UILabel *label;
 
-/** <#属性#> */
 @property (nonatomic, strong) UIColor *toolbarButtonsColor;
 @property (nonatomic, strong)UIColor *toolbarDoneButtonColor;
 @property (nonatomic, strong)UIColor *toolbarCancelButtonColor;
@@ -45,36 +44,56 @@ typedef void(^SelectionChangedHandler) (NSDictionary<NSNumber *,NSString *> *sel
 
 // MARK: Show
 //
-+ (void)showWithData:(NSArray <NSArray<NSString *>*>*)data
-               doneHandler:(DoneHandler)doneHandler
-             cancelHandler:(CancelHandler)cancelHandler
-   selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler;
++ (void)showWithData:(nonnull NSArray <NSArray<NSString *>*>*)data
+               doneHandler:(nullable DoneHandler)doneHandler
+             cancelHandler:(nullable CancelHandler)cancelHandler
+   selectionChangedHandler:(nullable SelectionChangedHandler)selectionChangedHandler;
 + (void)showWithData:(NSArray<NSArray<NSString *> *> *)data
-         doneHandler:(DoneHandler)doneHandler;
+         doneHandler:(nullable DoneHandler)doneHandler;
+- (void)show:(nullable DoneHandler)doneHandler;
+- (void)show:(nullable DoneHandler)doneHandler cancelHandler:(nullable CancelHandler)cancelHandler selectionChangedHandler:(nullable SelectionChangedHandler)selectionChangedHandler;
 
 // MARK: Show As Popover
 //
-+ (void)showAsPopover:(NSArray <NSArray<NSString *>*>*)data
++ (void)showAsPopover:(nonnull NSArray <NSArray<NSString *>*>*)data
    fromViewController:(UIViewController *)fromViewController
-           sourceView:(UIView *)sourceView
+           sourceView:(nullable UIView *)sourceView
            sourceRect:(CGRect)sourceRect
-        barButtonItem:(UIBarButtonItem *)barButtonItem
-          doneHandler:(DoneHandler)doneHandler
-        cancelHandler:(CancelHandler)cancelHandler
-selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler;
+        barButtonItem:(nullable UIBarButtonItem *)barButtonItem
+          doneHandler:(nullable DoneHandler)doneHandler
+        cancelHandler:(nullable CancelHandler)cancelHandler
+selectionChangedHandler:(nullable SelectionChangedHandler)selectionChangedHandler;
 
-+ (void)showAsPopover:(NSArray <NSArray<NSString *>*>*)data
++ (void)showAsPopover:(nonnull NSArray <NSArray<NSString *>*>*)data
    fromViewController:(UIViewController *)fromViewController
-           sourceView:(UIView *)sourceView
+           sourceView:(nullable UIView *)sourceView
+           sourceRect:(CGRect)sourceRect
+        barButtonItem:(nullable UIBarButtonItem *)barButtonItem
+          doneHandler:(nullable DoneHandler)doneHandler;
+- (void)showAsPopover:(UIViewController *)fromViewController
+           sourceView:(nullable UIView *)sourceView
            sourceRect:(CGRect)sourceRect
         barButtonItem:(UIBarButtonItem *)barButtonItem
           doneHandler:(DoneHandler)doneHandler;
+- (void)showAsPopover:(UIViewController *)fromViewController
+           sourceView:(nullable UIView *)sourceView
+           sourceRect:(CGRect)sourceRect
+        barButtonItem:(nullable UIBarButtonItem *)barButtonItem
+          doneHandler:(nullable DoneHandler)doneHandler
+        cancelHandler:(nullable CancelHandler)cancelHandler
+selectionChangedHandler:(nullable SelectionChangedHandler)selectionChangedHandler;
+
+
+- (instancetype)initWithDataSource:(nonnull NSArray <NSArray<NSString *> *>*)data;
 
 - (CGSize)popOverContentSize;
 - (void)sizeViews;
 - (void)addAllSubviews;
-//- (void)doneAction;
-//- (void)cancelAction;
+
+- (void)setToolbarItems:(NSArray<CRPickerBarButtonItem *>*)items;
+
+- (void)doneAction;
+- (void)cancelAction;
 @end
 
 NS_ASSUME_NONNULL_END

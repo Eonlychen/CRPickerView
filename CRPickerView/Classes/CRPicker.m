@@ -33,33 +33,31 @@ UITextFieldDelegate>
 }
 
 /** done */
-@property (nonatomic, copy) DoneHandler doneHandler;
+@property (nonatomic, copy, readwrite) DoneHandler doneHandler;
 /** cancel */
-@property (nonatomic, copy) CancelHandler cancelHandler;
+@property (nonatomic, copy, readwrite) CancelHandler cancelHandler;
 /** selection */
-@property (nonatomic, copy) SelectionChangedHandler selectionChangedHandler;
+@property (nonatomic, copy, readwrite) SelectionChangedHandler selectionChangedHandler;
 
 @property (nonatomic, strong) NSMutableDictionary<NSNumber *, NSString *> *pickerSelection;
 @property (nonatomic, strong) NSArray<NSArray <NSString *>*> *pickerData;
 
-/** pickerview */
 @property (nonatomic, strong) UIPickerView *picker;
-/** <#属性#> */
+
 @property (nonatomic, strong) UIView *backgroundView;
-/** <#属性#> */
+
 @property (nonatomic, strong) UIToolbar *toolbar;
 /** 弹出模式    默认为false */
 @property (nonatomic, assign) BOOL isPopoverMode;
 
 @property (nonatomic, strong, readonly) UIWindow *appWindow;
-/** <#属性#> */
+
 @property (nonatomic, strong) CRPickerPopoverViewController *crPickerPopoverViewController;
 
 
 @end
 
 @implementation CRPicker
-
 @synthesize pickerSelectRowsForComponents = _pickerSelectRowsForComponents;
 
 // MARK: Show
@@ -98,7 +96,7 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
 }
 + (void)showAsPopover:(NSArray <NSArray<NSString *>*>*)data
    fromViewController:(UIViewController *)fromViewController
-           sourceView:(UIView *)sourceView
+           sourceView:(nullable UIView *)sourceView
            sourceRect:(CGRect)sourceRect
         barButtonItem:(UIBarButtonItem *)barButtonItem
           doneHandler:(DoneHandler)doneHandler {
@@ -106,14 +104,14 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     [picker showAsPopover:fromViewController sourceView:sourceView sourceRect:sourceRect barButtonItem:barButtonItem doneHandler:doneHandler cancelHandler:nil selectionChangedHandler:nil];
 }
 - (void)showAsPopover:(UIViewController *)fromViewController
-           sourceView:(UIView *)sourceView
+           sourceView:(nullable UIView *)sourceView
            sourceRect:(CGRect)sourceRect
         barButtonItem:(UIBarButtonItem *)barButtonItem
           doneHandler:(DoneHandler)doneHandler {
     [self showAsPopover:fromViewController sourceView:sourceView sourceRect:sourceRect barButtonItem:barButtonItem doneHandler:doneHandler cancelHandler:nil selectionChangedHandler:nil];
 }
 - (void)showAsPopover:(UIViewController *)fromViewController
-           sourceView:(UIView *)sourceView
+           sourceView:(nullable UIView *)sourceView
            sourceRect:(CGRect)sourceRect
         barButtonItem:(UIBarButtonItem *)barButtonItem
           doneHandler:(DoneHandler)doneHandler
@@ -133,35 +131,33 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     popover.delegate = self;
     if (sourceView) {
         popover.sourceView = sourceView;
-        popover.sourceRect = CGRectEqualToRect(sourceRect, CGRectZero)?sourceRect:sourceView.bounds;
+        popover.sourceRect = CGRectEqualToRect(sourceRect, CGRectZero) ? sourceView.bounds:CGRectZero;
     }else {
         popover.barButtonItem = barButtonItem;
     }
-    
+
     [fromViewController presentViewController:self.crPickerPopoverViewController animated:true completion:nil];
 }
 
 
-
-
 - (instancetype)initWithDataSource:(NSArray <NSArray<NSString *> *>*)data {
     if (self = [super initWithFrame:CGRectZero]) {
-        self.pickerData = data;
+        self.pickerData = [NSArray arrayWithArray:data];
         [self initializeConstant];
         [self initializeisPopoverMode];
         [self setup];
     }
     return self;
 }
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
-    return self;
-}
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    return self;
-}
+//- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+//    self = [super initWithCoder:aDecoder];
+//    return self;
+//}
+//- (instancetype)initWithFrame:(CGRect)frame
+//{
+//    self = [super initWithFrame:frame];
+//    return self;
+//}
 
 
 #pragma mark -- public
@@ -206,36 +202,23 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
 
 #pragma mark -- private
 
-- (void)setToolbarItems:(NSArray<CRPickerBarButtonItem *>*)items {
-    self.toolbar.items = items;
-    [self setToolbarProperties];
-}
-
-- (void)setToolbarProperties {
-   
-    
-}
-
 - (void)setup {
-    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(cancel)];
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(cancelAction)];
     [self addGestureRecognizer:tapGestureRecognizer];
-    
+
     CRPickerBarButtonItem *fixedSpaceItem = [CRPickerBarButtonItem fixedSpaceWithWidth:self.appWindow.bounds.size.width*constant.barButtonFixedSpacePadding];
-    CRPickerBarButtonItem *cancelItem = [CRPickerBarButtonItem cancelWithPicker:self title:nil];
+    CRPickerBarButtonItem *cancelItem = [CRPickerBarButtonItem cancelWithPicker:self title:@"取消"];
     CRPickerBarButtonItem *flexibleSpaceItem = [CRPickerBarButtonItem flexibleSpace];
-    CRPickerBarButtonItem *doneItem = [CRPickerBarButtonItem doneWithPicker:self title:nil];
+    CRPickerBarButtonItem *doneItem = [CRPickerBarButtonItem doneWithPicker:self title:@"确定"];
     [self setToolbarItems:@[fixedSpaceItem,cancelItem,flexibleSpaceItem,doneItem,fixedSpaceItem]];
-    
     self.backgroundView.backgroundColor = UIColor.whiteColor;
-    self.picker.dataSource = self;
-    self.picker.delegate = self;
     [self sizeViews];
     NSInteger index = 0;
     for (NSArray<NSString *>*element in self.pickerData.objectEnumerator) {
         self.pickerSelection[@(index)] = element.firstObject;
         index++;
     }
-    
+
 }
 - (CGFloat)_backgroundColorAlpha {
     return self.backgroundColorAlpha ?: constant.backgroundColorAlpha;
@@ -262,7 +245,7 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
         self.backgroundView.frame = backgroundFrame;
         [self addAllSubviews];
         [self.appWindow addSubview:self];
-        
+
         [UIView animateWithDuration:constant.animationSpeed animations:^{
             self.backgroundColor = [animateColor colorWithAlphaComponent:[self _backgroundColorAlpha]];
             CGFloat originY = self.appWindow.bounds.size.height - self.backgroundView.bounds.size.height;
@@ -280,7 +263,6 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
         }];
     }
 }
-
 
 /**
   初始化配置
@@ -308,6 +290,17 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     }
 }
 #pragma mark -- setter
+    
+- (void)setToolbarItems:(NSArray<CRPickerBarButtonItem *>*)items {
+    
+    self.toolbar.items = items;
+    [self setToolbarProperties];
+}
+
+- (void)setToolbarProperties {
+
+
+}
 - (void)setToolbarButtonsColor:(UIColor *)toolbarButtonsColor {
     [self applyToolbarButtonItemsSettingsWithActions:nil settings:^(UIBarButtonItem *barButtonItem) {
         barButtonItem.tintColor = toolbarButtonsColor;
@@ -358,6 +351,8 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
 - (UIPickerView *)picker {
     if (!_picker) {
         _picker = [UIPickerView.alloc init];
+        _picker.dataSource = self;
+        _picker.delegate = self;
     }
     return _picker;
 }
@@ -385,8 +380,6 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     return UIApplication.sharedApplication.keyWindow;
 }
 
-
-
 #pragma mark -- UIPickerViewDataSource,UIPickerViewDelegate
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView; {
     return self.numberOfComponents;
@@ -398,24 +391,26 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     UILabel *pickerLabel = (UILabel *)view;
     if (pickerLabel == nil) {
         pickerLabel = UILabel.new;
-        UILabel *goodLabel = self.label;
-        if (goodLabel) {
-            pickerLabel.textAlignment = goodLabel.textAlignment;
-            pickerLabel.font = goodLabel.font;
-            pickerLabel.textColor = goodLabel.textColor;
-            pickerLabel.backgroundColor = goodLabel.backgroundColor;
-            pickerLabel.numberOfLines = goodLabel.numberOfLines;
+        if (self.label) {
+            pickerLabel.textAlignment = self.label.textAlignment;
+            pickerLabel.font = self.label.font;
+            pickerLabel.textColor = self.label.textColor;
+            pickerLabel.backgroundColor = self.label.backgroundColor;
+            pickerLabel.numberOfLines = self.label.numberOfLines;
         }else {
             pickerLabel.textAlignment = NSTextAlignmentCenter;
             pickerLabel.font = [UIFont systemFontOfSize:self.fontSize];
         }
     }
-    pickerLabel.text = self.pickerData[component][row];
+    NSString *text = self.pickerData[component][row];
+    pickerLabel.text = text;
     return pickerLabel;
 }
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     self.pickerSelection[@(component)] = self.pickerData[component][row];
-    self.selectionChangedHandler(self.pickerSelection,component);
+    if (self.selectionChangedHandler) {
+        self.selectionChangedHandler(self.pickerSelection,component);
+    }
 }
 #pragma mark -- UIPopoverPresentationControllerDelegate
 - (void)popoverPresentationControllerDidDismissPopover:(UIPopoverPresentationController *)popoverPresentationController {
@@ -437,11 +432,11 @@ selectionChangedHandler:(SelectionChangedHandler)selectionChangedHandler {
     return false;
 }
 
-#pragma mark -- UITextFieldDelegate
-- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
-    // to do
-    
-    return true;
-}
+//#pragma mark -- UITextFieldDelegate
+//- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+//    // to do
+//
+//    return true;
+//}
 
 @end

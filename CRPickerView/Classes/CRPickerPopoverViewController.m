@@ -10,7 +10,6 @@
 
 @interface CRPickerPopoverViewController ()
 
-/** picker  weak防止循环引用*/
 @property (nonatomic, weak) CRPicker  *crPicker;
 
 @end
@@ -32,12 +31,6 @@
     if (self) {
         self.crPicker = picker;
     }
-    return self;
-}
-
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
-    self = [super initWithCoder:coder];
     return self;
 }
 
